@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  color: black;
+  font-size: 13px;
+}
+.header{
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 19px 0 5px;
+  padding: 0 96px 0 0;
+  overflow: hidden;
+  height: 24px;
+}
+.nav{
+  float: right;
+}
+.nav li{
+  float: left;
+  margin-left: 20px;
+}
+.nav li:last-child{
+  margin-left: 0;
+}
+.nav li a:hover{
+  color: #00c;
+}
+.nav li a{
+   font-weight: 600;
+ }
+.nav li:nth-child(7) a{
+  font-weight: 100;
+}
+.nav li:nth-child(8) a{
+  font-weight: 100;
+}
+.nav li:nth-child(8){
+  position: relative;
+}
+.nav li:nth-child(8):hover .cai{
+  display: block;
+}
+.cai{
+  width: 70px;
+  border: 1px solid lightgrey;
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  display: none;
+}
+.cai .dan{
+  width: 70px;
+}
+.cai .dan li {
+  width: 70px;
+  text-align: center;
+  margin-left: 0;
+  height: 20px;
+  color: black;
+ padding: 5px 0 5px 0;
+}
+.dan li a{
+  text-decoration: none;
+
+}
+.nav li:last-child a{
+  position: absolute;
+  top: -2px;
+  right: 10px;
+  width: 60px;
+  height: 23px;
+  float: left;
+  color: #fff;
+  background: #38f;
+  line-height: 24px;
+  font-size: 13px;
+  text-align: center;
+  overflow: hidden;
+  border-bottom: 1px solid #38f;
+  margin-left: 19px;
+  margin-right: 2px;
+  font-weight: 100;
+}
+.logo{
+  text-align: center;
+  overflow: hidden;
+}
+.logo img{
+  width: 270px;
+  height: 129px;
+ margin-top: 43px;
+}
+.int{
+  width: 642px;
+  margin: 22px auto 0;
+}
+.int div{
+  float: left;
+}
+.left{
+  width: 540px;
+  height: 36px;
+  border:1px solid #b6b6b6;
+  background-color: #fff;
+}
+
+.right{
+  width: 100px;
+  height: 36px;
+  background-color: #0a95dd;
+  margin-top: 1px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+}
+.left input{
+  float: left;
+  width: 500px;
+  height: 22px;
+  margin: 6px 0 0 7px;
+  border: none;
+}
+.ewm{
+  margin-top: 192px;
+  text-align: center;
+}
+.ewm img{
+  width: 60px;
+}
+.ewm p{
+  font-weight: 600;
+  color: #666;
+  line-height: 24px;
+}
+.baidu{
+  text-align: center;
+  margin-top: 15px;
+}
+.baidu a{
+  color: #999;
+  margin-left: 25px;
+}
+.bq{
+  text-align: center;
+  color: #999;
+  margin-top: 10px;
+}
+.bq a{
+  color: #999;
+}
+.bq img:first-of-type{
+  margin-right: 19px;
+}
+
+
+
+
+
